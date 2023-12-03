@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Api</title>
+    <link rel="stylesheet" href="fetch.css">
+</head>
+<body>
+    <div class="loder-container" id="loder">
+        <div class="loder">
+
+        </div>
+    </div>
+    <div class="main d-none" id="main">
+        <div id="detail-cont">
+            <div id="location-01">
+                <h1>Welcome To The Weather App</h1>
+                <p>Here is your current location</p>
+                <div id="lat-long">
+                    <div id="lat">Lat:</div>
+                    <div id="long">Long:</div>
+                </div>
+            </div>
+            <div id="map">
+                <iframe frameborder="0"  id="googlemap"></iframe>
+            </div>
+        </div>
+        <div id="about-info">
+            <div id="about-info-01">Your Weather Data</div>
+            <div id="display-data">
+                <div class="dis" id="location" ></div>
+                <div  class="dis" id="wind"></div>
+                <div class="dis"  id="humidity"></div>
+                <div class="dis"  id="time-zone"></div>
+                <div class="dis" id="presure"></div>
+                <div class="dis" id="wind-direction"></div>
+                <div class="dis" id="uv-index"></div>
+                <div class="dis" id="feels-like"></div>
+            </div>
+        </div>
+    </div>
+   
+    <script src="fetch.js"></script>
+</body>
+</html>

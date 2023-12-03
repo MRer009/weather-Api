@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    flex-direction: column;
+    background-color: #360369;
+}
+
+h1{
+    font-size: 6.5rem;
+    color: #ffffff;
+}
+
+button{
+    background-color: #ffffff;
+    color: black;
+    padding: 1rem 6rem;
+    border: none;
+    font-size: 1.5rem;
+}
+
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    gap: 2rem;
+}
